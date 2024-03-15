@@ -1,1 +1,1 @@
-# ShaftCode
+The inputs of this code are the specified dimensions of the shaft, Young's Modulus, and Shear Modulus. The outputs are normal stress, shear stress, principal stresses and the factor of safety of the shaft.
