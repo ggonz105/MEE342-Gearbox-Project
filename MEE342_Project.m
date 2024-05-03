@@ -41,7 +41,7 @@ Cx = Px;
 x1 = linspace(0,L_Input,1075);
 In_Shaft = [0, L0, L0+L1, L0+L1+L2, L0+L1+L2+L3/2, L_Input+L4];
 Torque1 = [Ta,Ta,Ta-Tb,Ta-Tb];
-T1 = zeros(size(x2));
+T1 = zeros(size(x1));
 T1(1:(In_Shaft(5)*100)) = Torque1(1);
 
 F1_x = [Px,Px,Px,Cx];
